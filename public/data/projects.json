@@ -1,0 +1,44 @@
+[
+  {
+    "id": "indigi-kart",
+    "title": "INDIGI-KART",
+    "short": "E-commerce platform for indigenous products — full stack",
+    "description": "• Built full-stack e-commerce platform enabling direct buyer–seller interactions.\n• Developed backend services using Java, Spring Boot, and Hibernate.\n• Implemented seller verification using GI certificates to ensure product authenticity.\n• Integrated secure payment flow and data encryption for transaction safety.\n• Optimized application performance and responsiveness across devices.\n• Used Cloudinary for scalable product image storage and delivery.",
+    "tech": ["Java", "Spring Boot", "Hibernate", "React", "MySQL", "Cloudinary"],
+    "year": 2024,
+    "thumbnail": "/assets/projects/indigi-kart-thumb.jpg",
+    "images": ["/assets/projects/indigi-1.jpg", "/assets/projects/indigi-2.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "githubUrl": "https://github.com/pranavkharche79/INDIGI-KART",
+    "liveUrl": "https://indigi.example.com",
+    "isAI": false
+  },
+  {
+    "id": "ebook-management",
+    "title": "E-Book Management System",
+    "short": "Secure e-book purchases with Google OAuth and role-based access.",
+    "description": "• Developed RESTful backend APIs using Java and Spring Boot.\n• Built responsive frontend using React.js.\n• Implemented Google OAuth2–based authentication and role-based access control.\n• Integrated SMTP-based forgot-password workflow.\n• Used Cloudinary for scalable image management.\n• Enabled secure e-book purchase and management functionality.",
+    "tech": ["Java", "Spring Boot", "React", "Cloudinary", "MySQL", "O-Auth2", "SMTP"],
+    "year": 2024,
+    "thumbnail": "/assets/projects/ebook-thumb.jpg",
+    "images": ["/assets/projects/ebook-1.jpg"],
+    "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "githubUrl": "https://github.com/pranavkharche79/E-Book-Project",
+    "liveUrl": "https://ebook.example.com",
+    "isAI": false
+  },
+  {
+    "id": "autotestgen",
+    "title": "AutoTestGen (AI-assisted)",
+    "short": "Prototype that generates UI test skeletons using AI prompts.",
+    "description": "An experimental tool that uses AI to generate Playwright test skeletons from user stories; demonstrates AI-assisted development workflows.",
+    "tech": ["TypeScript", "Playwright", "OpenAI (demo)", "React"],
+    "year": 2025,
+    "thumbnail": "/assets/projects/autotestgen-thumb.jpg",
+    "images": [],
+    "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "githubUrl": "https://github.com/yourusername/autotestgen",
+    "liveUrl": "",
+    "isAI": true
+  }
+]
