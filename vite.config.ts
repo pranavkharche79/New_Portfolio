@@ -19,14 +19,6 @@ export default defineConfig({
     include: ["src/**/*.{test,spec}.{ts,tsx}"],
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          three: ["three", "@react-three/fiber", "@react-three/drei"],
-          "framer-motion": ["framer-motion"],
-          "react-player": ["react-player"],
-        },
-      },
-    },
+    // Let Vite handle chunking automatically to prevent loading order issues
   },
 });
